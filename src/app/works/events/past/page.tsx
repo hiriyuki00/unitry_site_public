@@ -55,7 +55,7 @@ export default function PastEventsPage() {
           <FadeIn delay={0.2} className="mt-12 text-center">
             <Link
               href="/works#events"
-              className="inline-block px-8 py-3 border border-dark/20 rounded font-medium hover:bg-dark hover:text-white transition-colors"
+              className="inline-block px-5 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base border border-dark/20 rounded font-medium hover:bg-dark hover:text-white transition-colors"
             >
               開催予定のイベントを見る
             </Link>

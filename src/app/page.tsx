@@ -44,13 +44,13 @@ export default function Home() {
               <div className="relative z-10 mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center md:mt-12">
                 <Link
                   href="/about"
-                  className="inline-block px-8 py-3 bg-primary text-white font-medium rounded shadow-lg shadow-black/30 hover:bg-primary-dark transition-colors"
+                  className="inline-block px-5 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base bg-primary text-white font-medium rounded shadow-lg shadow-black/30 hover:bg-primary-dark transition-colors"
                 >
                   Unitryを知る
                 </Link>
                 <Link
                   href="/works"
-                  className="inline-block px-8 py-3 border border-white/40 bg-black/20 text-white font-medium backdrop-blur-sm rounded shadow-lg shadow-black/20 hover:bg-white/15 transition-colors"
+                  className="inline-block px-5 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base border border-white/40 bg-black/20 text-white font-medium backdrop-blur-sm rounded shadow-lg shadow-black/20 hover:bg-white/15 transition-colors"
                 >
                   活動内容を見る
                 </Link>
@@ -156,7 +156,7 @@ export default function Home() {
           <FadeIn delay={0.2}>
             <Link
               href="/contact"
-              className="inline-block mt-8 px-8 py-3 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
+              className="inline-block mt-8 px-5 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
             >
               お問い合わせはこちら
             </Link>

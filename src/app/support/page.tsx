@@ -124,7 +124,7 @@ export default function SupportPage() {
                   href={CAMPFIRE_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-8 py-3 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
+                  className="inline-block px-5 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
                 >
                   プロジェクトページを開く
                 </a>
@@ -157,7 +157,7 @@ export default function SupportPage() {
                     href="https://camp-fire.jp/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block px-8 py-3 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
+                    className="inline-block px-5 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
                   >
                     CAMPFIRE を見る
                   </a>
@@ -180,7 +180,7 @@ export default function SupportPage() {
               </p>
               <a
                 href="/contact"
-                className="inline-block px-8 py-3 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
+                className="inline-block px-5 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
               >
                 お問い合わせはこちら
               </a>

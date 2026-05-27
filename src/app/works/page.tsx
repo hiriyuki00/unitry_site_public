@@ -149,7 +149,7 @@ export default function WorksHubPage() {
           <FadeIn delay={0.15} className="mt-10 text-center">
             <Link
               href="/works/events/past"
-              className="inline-block px-8 py-3 border border-dark/20 rounded font-medium text-dark/80 hover:bg-dark hover:text-white transition-colors"
+              className="inline-block px-5 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base border border-dark/20 rounded font-medium text-dark/80 hover:bg-dark hover:text-white transition-colors"
             >
               過去のイベントはこちら
               {pastEvents.length > 0 ? (
@@ -192,7 +192,7 @@ export default function WorksHubPage() {
           <FadeIn delay={0.2} className="mt-12 text-center">
             <Link
               href="/contact"
-              className="inline-block px-8 py-3 bg-primary text-white rounded font-medium hover:opacity-90 transition-opacity"
+              className="inline-block px-5 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base bg-primary text-white rounded font-medium hover:opacity-90 transition-opacity"
             >
               ワークショップのご相談はこちら
             </Link>

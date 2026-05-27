@@ -170,7 +170,7 @@ export default async function EventDetailPage({ params }: Props) {
                   href={ev.externalUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-8 py-3 bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
+                  className="inline-block px-5 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
                 >
                   詳細・お申し込み（外部サイト）
                 </a>

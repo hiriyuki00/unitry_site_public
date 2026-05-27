@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://unitry.vercel.app
+
+# Sitemaps
+Sitemap: https://unitry.vercel.app/sitemap.xml

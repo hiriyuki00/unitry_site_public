@@ -1,0 +1,8 @@
+/**
+ * エントリ: Tailwind → トークン → ベース → 可読性
+ * 個別の上書きはこのファイルではなく theme / base / readability に追加する。
+ */
+@import "tailwindcss";
+@import "../styles/theme.css";
+@import "../styles/base.css";
+@import "../styles/readability.css";

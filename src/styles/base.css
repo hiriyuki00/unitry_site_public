@@ -1,0 +1,34 @@
+/**
+ * ベースレイヤー（html / body / フォーカス・選択）
+ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-white);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-body);
+  line-height: var(--leading-body);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--color-primary-light);
+  color: var(--color-dark);
+}
+
+/* Custom cursor mode (desktop only) */
+@media (pointer: fine) {
+  body.cursor-dot-mode,
+  body.cursor-dot-mode * {
+    cursor: none !important;
+  }
+}

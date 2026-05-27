@@ -1,0 +1,22 @@
+/**
+ * デザイントークン（Tailwind @theme）
+ * globals.css から @import "tailwindcss" の直後に読み込む。
+ */
+@theme inline {
+  --color-primary: #dc2626;
+  --color-primary-dark: #b91c1c;
+  --color-primary-light: #fee2e2;
+  --color-dark: #0a0a0a;
+  --color-dark-light: #1a1a1a;
+  --color-gray: #6b7280;
+  --color-gray-light: #f3f4f6;
+  --color-white: #ffffff;
+
+  /* 本文可読性用（白背景上） */
+  --color-text: #111827;
+  --color-text-muted: #374151;
+
+  --font-sans: "Noto Sans JP", "Helvetica Neue", Arial, sans-serif;
+  --font-size-body: 1.0625rem;
+  --leading-body: 1.75;
+}

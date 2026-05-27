@@ -82,7 +82,7 @@ export default function AboutPage() {
                 sizes="(max-width: 768px) 100vw, 768px"
               />
               <div
-                className="absolute inset-0 bg-white/88 md:bg-white/45"
+                className="absolute inset-0 bg-white/68 md:bg-white/45"
                 aria-hidden
               />
               <div className="relative z-10 p-8 md:p-10">

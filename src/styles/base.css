@@ -3,6 +3,9 @@
  */
 html {
   scroll-behavior: smooth;
+  /* iOS Safari などでの自動文字拡大を防ぐ */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -13,6 +16,13 @@ body {
   line-height: var(--leading-body);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+}
+
+/* スマホは基準文字サイズを少し抑える */
+@media (max-width: 640px) {
+  body {
+    font-size: 1rem;
+  }
 }
 
 :focus-visible {

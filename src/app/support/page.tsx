@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 import SectionTitle from "@/components/SectionTitle";
 
@@ -178,12 +179,12 @@ export default function SupportPage() {
                 <br />
                 さまざまな形でのご支援をお待ちしています。
               </p>
-              <a
+              <Link
                 href="/contact"
                 className="inline-block px-5 py-2.5 text-sm sm:px-8 sm:py-3 sm:text-base bg-primary text-white font-medium rounded hover:bg-primary-dark transition-colors"
               >
                 お問い合わせはこちら
-              </a>
+              </Link>
             </div>
           </FadeIn>
         </div>

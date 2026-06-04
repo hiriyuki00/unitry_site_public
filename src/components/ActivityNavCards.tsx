@@ -26,12 +26,7 @@ export default function ActivityNavCards({
               fill
               sizes="(max-width: 640px) 100vw, 33vw"
               className="object-cover transition-transform duration-500 group-hover:scale-105"
-              style={{
-                objectPosition:
-                  "imagePosition" in item && item.imagePosition
-                    ? item.imagePosition
-                    : "center",
-              }}
+              style={{ objectPosition: item.imagePosition ?? "center" }}
             />
             <div
               className="absolute inset-0 bg-gradient-to-t from-dark/50 via-dark/10 to-transparent"

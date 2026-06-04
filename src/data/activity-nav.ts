@@ -16,6 +16,6 @@ export const activityNavItems = [
     href: "/works#workshop",
     label: "学校でのワークショップ",
     description: "学校向けの映像・対話プログラム",
-    image: "/images/work_school.jpg",
+    image: "/images/work_school_02.jpg",
   },
 ] as const;

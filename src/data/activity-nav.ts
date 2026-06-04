@@ -26,6 +26,5 @@ export const activityNavItems: ActivityNavItem[] = [
     label: "学校でのワークショップ",
     description: "学校向けの映像・対話プログラム",
     image: "/images/work_school_02.jpg",
-    imagePosition: "center 20%",
   },
 ];

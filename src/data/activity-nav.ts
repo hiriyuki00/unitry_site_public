@@ -17,5 +17,7 @@ export const activityNavItems = [
     label: "学校でのワークショップ",
     description: "学校向けの映像・対話プログラム",
     image: "/images/work_school.jpg",
+    /** トリミング位置（上部を多めに見せる） */
+    imagePosition: "center 20%",
   },
 ] as const;
